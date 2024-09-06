@@ -122,8 +122,6 @@
     top: 200px;
     left: 600px;
     align-items: flex-end;
-    border: solid 3px #272727;
-    border-radius: 19px;
   }
 
   .video2 {
@@ -140,26 +138,23 @@
   }
 
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-
-  *{
-      box-sizing: border-box
-  }
   
   .wrapper {
       display: flex;
       width: 100%;
       justify-content: space-around;
       align-items: center;
+      flex-wrap: wrap;
   }
   
   .card {
-      width: 280px;
+      width: 300px;
       height: 500px;
       border: solid 3px #272727;
       border-radius: 19px;
       padding: 1.5rem;
       background: rgb(54, 54, 54);
-      position: relative;
+      position: relative ;
       display: flex;
       align-items: flex-end;
       transition: 0.4s ease-out;
