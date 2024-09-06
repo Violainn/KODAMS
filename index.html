@@ -8,20 +8,36 @@
     <link rel="stylesheet" href="Webpage.css">
     </head>
     <body>
-        <nav>
-            <ul>
-              <li><a href="#" class="link">Home</a></li>
-              <li><a href="#" class="link">Shop</a></li>
-              <li><a href="#" class="link">About</a></li>
-              <li><a href="#" class="link">Post</a></li>
-              <li><a href="#" class="link">Experience</a></li>
+        <header>
+            <nav>
+                <div class="menu">
+                    <ul class="menu-list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <button class="menu-button" id="menuButton">&#9776;</button>
+            </nav>
+        </header>
+    
+        <div class="drawer" id="menuDrawer">
+            <button class="close-button" id="closeButton">&times;</button>
+            <ul class="drawer-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
-          </nav>
+        </div>
+        <script src="webpage.js"></script>
+
         <div class="box">
             <h1>Kodams</h1>
         </div>
         <div class="box2">
-            <p>Menambah Skill Terpendam</p>
+            <p>Cerahkan Harimu</p>
         </div> 
         <button class="btn-12" onclick="location.href='https://www.instagram.com/_kofiadams/?utm_source=ig_web_button_share_sheet'"><span>BUY NOW</span></button>
         <div class="card-1">
@@ -32,7 +48,6 @@
                 </div>
             </div>
             <h1 class="A">Coffee Flavor</h1>
-
         </div>
         <div class="wrapper">
             <div class="card">
